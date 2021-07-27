@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.logo{
+    width: 100%;
+    height: 40vh;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rnzIcuYyv2WcpAeyOrR7KgHaDq%26pid%3DApi&f=1');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-position: center;
+    background-color: #ffe051;
+}
+.card{
+    background-color: #f1f1f1;    
+}
+.card:hover{
+    box-shadow: 10px 10px 5px grey;
+
+}
+.flex-fill{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .flex-row {
+        display: flex;        
+        width: 100%;
+        flex-direction:column;
+        margin-bottom: 20px;
+    }
+}
